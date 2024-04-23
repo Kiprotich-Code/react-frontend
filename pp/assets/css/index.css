@@ -3,11 +3,19 @@
   padding: 0;
 }
 
-li {
-  list-style: none;
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', cursive;
 }
 
+li {
+  list-style: none !important;
+  font-weight: lighter !important;
+}
 
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
 
 /*--------------------------------------------------------------
 # Contact Section
