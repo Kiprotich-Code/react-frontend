@@ -142,3 +142,21 @@ a {
 .sm-btn {
   background-color: #ffc732 !important;
 }
+
+/* FAQ's  */
+.faq {
+  background-image: url('/assets/images/px.jpg');
+  background-size: cover;
+}
+
+.about-us {
+  background-image: url('/assets/images/rl.jpg');
+  background-size: cover;
+}
+
+.pd-image {
+  background-image: url('/assets/images/morio.jpg');
+  background-size: cover;
+  background-position: top;
+  height: 600px;
+}
