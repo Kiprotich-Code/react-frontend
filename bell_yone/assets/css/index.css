@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'SUSE', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+/* theme background  */
+.bg-theme {
+    background-color: #F7941D;
+}
+
+li {
+    list-style: none !important;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.large_h {
+    font-size: 7ch;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar div:last-child {
+    margin-right: 0;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 100px;
+    background: transparent;
+}
+
+.search-bar button {
+    background-color: #F7941D;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.search-bar i {
+    margin-right: 10px;
+}
+
+.search-bar input[type="date"] {
+    width: 120px;
+}
+
+
+.text-color {
+    color: #F7941D;
+}
+
+.top-destination {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.top-destination h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+}
+
+.top-destination p {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.search-box input,
+.search-box select {
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.search-box button {
+    background-color: #F7941D;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+/* STYLING FOR CSS  */
+/* testimonials  */
+/* Testimonials Section    */
+.testimonials-clean {
+    color: #F7941D;
+    background-color: #f9f9f9;
+}
+
+.testimonials-clean p {
+    color: #7d8285;
+}
+
+.testimonials-clean h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media (max-width:767px) {
+    .testimonials-clean h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.testimonials-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.testimonials-clean .intro p {
+    margin-bottom: 0;
+}
+
+.testimonials-clean .people {
+    padding: 50px 0 20px;
+}
+
+.testimonials-clean .item {
+    margin-bottom: 32px;
+}
+
+@media (min-width:768px) {
+    .testimonials-clean .item {
+        height: 220px;
+    }
+}
+
+.testimonials-clean .item .box {
+    padding: 30px;
+    background-color: #fff;
+    position: relative;
+}
+
+.testimonials-clean .item .box:after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    bottom: -24px;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-width: 12px 15px;
+    border-top-color: #fff;
+}
+
+.testimonials-clean .item .author {
+    margin-top: 28px;
+    padding-left: 25px;
+}
+
+.testimonials-clean .item .name {
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: inherit;
+}
+
+.testimonials-clean .item .title {
+    font-size: 13px;
+    color: #9da9ae;
+}
+
+.testimonials-clean .item .description {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.testimonials-clean .item img {
+    max-width: 40px;
+    float: left;
+    margin-right: 12px;
+    margin-top: -5px;
+}
+
+.bg-contact {
+    --bsb-overlay-opacity: 0.7;
+    background-image: url('../images/park.jpg');
+}
